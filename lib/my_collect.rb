@@ -8,5 +8,6 @@ return
 
 end
 my_collect(languages) do |language|
-  languages.upper
+  languages.upcase
+end 
 
