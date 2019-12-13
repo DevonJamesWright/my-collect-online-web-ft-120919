@@ -14,5 +14,5 @@ end
 
 students = ["Tim Jones", "Tom holloway", "Sophie Black", "Antoin White"]
 my_collect(students) do |student|
-  student.split ("").first
+  student.split(" ").first
 end
