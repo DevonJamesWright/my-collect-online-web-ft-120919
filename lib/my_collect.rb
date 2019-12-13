@@ -12,6 +12,6 @@ my_collect(languages) do |language|
   language.upcase
 end
 
-students = ["Tim", "Tom", "Sophie", "Antoin"]
+students = ["Tim Jones", "Tom holloway", "Sophie Black", "Antoin White"]
 my_collect(students) do |student|
-  student.first
+  student.split ("").first
